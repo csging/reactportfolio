@@ -1,0 +1,39 @@
+.main {
+    padding: 'verticle 5',
+}
+
+.my-4 {
+    padding: 0
+}
+
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    background-color: #254558;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.jumbotron-heading {
+    font-weight: 300;
+    color: #2b2b3a;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    color: white;
+}
+
+.container h1 {
+    color: #eafc40;
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

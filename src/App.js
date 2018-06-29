@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import {Route, BrowserRouter} from 'react-router-dom';
 // import './App.css';
-import About from './About';
-import Contact from './Contact';
-import Portfolio from './Portfolio';
-import Navbar from './Navbar';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import Portfolio from './Components/Portfolio/Portfolio';
+import Navbar from './Components/Navbar/Navbar';
 // import { createMuiTheme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
