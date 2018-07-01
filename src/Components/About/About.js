@@ -6,21 +6,21 @@ class About extends Component {
 
     render() {
       return (
-        <div id="index-banner" class="parallax-container about-container">
-    <div class="section no-pad-bot">
-      <div class="name-container">
+        <div id="index-banner" className="parallax-container about-container">
+    <div className="section no-pad-bot">
+      <div className="name-container">
         <br/><br/>
-        <h1 class="header center">Christian Gingrich</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Web Developer</h5>
+        <h1 className="header center">Christian Gingrich</h1>
+        <div className="row center">
+          <h5 className="header col s12 light">Web Developer</h5>
         </div>
-        <div class="row center">
+        <div className="row center">
         </div>
         <br/><br/>
 
       </div>
     </div>
-    <div class="parallax"><img src="" alt="Unsplashed background img 1"/></div>
+    <div className="parallax"><img src="" alt="Unsplashed background img 1"/></div>
   </div>
 )
     }

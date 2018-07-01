@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Navbar.css';
 
-class Navbar extends React.Component {
-  render() {
-  return (
+const Navbar = () => (
     <div>
-    <nav classname="navbar" role="navigation">
+    <nav className="navbar" >
     <div className="nav-wrapper container">
       <div className="row">
       <ul>
@@ -39,7 +37,7 @@ class Navbar extends React.Component {
         </nav>
     </div>
   );
-}};
+
 
 <li><a> | </a></li>
 export default Navbar;

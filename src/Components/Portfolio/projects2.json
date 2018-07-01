@@ -1,46 +1,4 @@
 [{
-        "id": "1",
-        "name": "React Pic Game",
-        "desc": "Clicky memory game. Click on each picture only once to win! Click the same picture twice and you lose!",
-        "lang": "ReactJS",
-        "url": "https://github.com/csging/ReactPicGame"
-    },
-    {
-        "id": "2",
-        "name": "Pokemon Hangman",
-        "desc": "Who's that pokemon? Guess the Pokemon within 9 tries to win!",
-        "lang": "HTML, CSS, JavaScript",
-        "url": "https://github.com/csging/Hangman-Game"
-    },
-    {
-        "id": "3",
-        "name": "Mongo News Scraper",
-        "desc": "Scrape the news with this website! You can save an article, make a note on the article, and delete the article",
-        "lang": "Cheerio, morgan, body-parser, Handlebars, MongoDB, Express, Node",
-        "url": "https://github.com/csging/newsScrape"
-    },
-    {
-        "id": "4",
-        "name": "BLACK List To Do List",
-        "desc": "The BLACK list is a to do list to make your life easier. You can sign in, save your list, edit and delete tasks on your list. Future updates include using the graph page to track your productivity by showing you how many lists and tasks you complete weekly",
-        "lang": "ReactJS, Node, Express, MySQL, Heroku, OAuth, ",
-        "url": "https://github.com/csging/GetShitDone"
-    },
-    {
-        "id": "5",
-        "name": "Crystal Collector Game",
-        "desc": "Each game starts with 4 crystals all with different values. You need to figure out those hidden values to match the winning number. Game resets on refresh",
-        "lang": "Jquery, Javascript, HTML, CSS",
-        "url": "https://github.com/csging/week-4-game"
-    },
-    {
-        "id": "6",
-        "name": "GIPHY API Search",
-        "desc": "Search and view your favorite GIFs. Start off by clicking a tab to generate 10 gifs, or use the search bar to generate your own gifs! Click on a gif to start and stop the gif.",
-        "lang": "GIPHY API, HTML, CSS, Jquery, Ajax",
-        "url": "https://github.com/csging/giphyAPI"
-    },
-    {
         "id": "7",
         "name": "Train Sceduler",
         "desc": "Keep track of your own trains with this train tracker. Data put in the forms is saved in a Firebase Database",
