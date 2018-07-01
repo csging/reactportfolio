@@ -6,17 +6,23 @@ class About extends Component {
 
     render() {
       return (
-       <section className="jumbotron text-center">
-        <div className="container">
-          <h1 className="jumbotron-heading">Christian Gingrich</h1>
-          <p className="lead text-muted">Aspiring Web Developer </p>
-          <p>
-            {/* <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a> */}
-          </p>
+        <div id="index-banner" class="parallax-container about-container">
+    <div class="section no-pad-bot">
+      <div class="name-container">
+        <br/><br/>
+        <h1 class="header center">Christian Gingrich</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Web Developer</h5>
         </div>
-      </section>
-      )
+        <div class="row center">
+        </div>
+        <br/><br/>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="" alt="Unsplashed background img 1"/></div>
+  </div>
+)
     }
 }
 

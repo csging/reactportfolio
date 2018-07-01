@@ -6,7 +6,7 @@
     padding: 0
 }
 
-.jumbotron {
+.about-container {
     padding-top: 6rem;
     padding-bottom: 6rem;
     margin-bottom: 0;
@@ -17,9 +17,10 @@
     background-size: cover;
 }
 
-.jumbotron-heading {
+.name-container {
     font-weight: 300;
-    color: #2b2b3a;
+    color: #eafc40;
+    background-color: #2b2b3a
 }
 
 .jumbotron .container {
@@ -29,8 +30,8 @@
     color: white;
 }
 
-.container h1 {
-    color: #eafc40;
+.row h5 {
+    color: #fff;
 }
 
 .jumbotron p {

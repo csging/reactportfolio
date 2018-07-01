@@ -5,7 +5,8 @@ class Contact extends Component {
 
   state= {
     firstName: "",
-    lastName: ""
+    lastName: "",
+    email: ""
   };
 
   handleInputChange = event => {
@@ -24,7 +25,8 @@ class Contact extends Component {
     alert(`Hello ${this.state.firstName} ${this.state.lastName}`);
     this.setState({
       firstName: "",
-      lastName: ""
+      lastName: "",
+      email: ""
     });
   }
     render() {
@@ -33,14 +35,13 @@ class Contact extends Component {
         <div>
           
           <div className="container">
-            <div className="container main">
+            <div className="container-contact">
             <div className="row" >
               <div className="col align-self-center">
-                <h4 className="mb-0 mt-4 display-4">Contact Me</h4>
+                <p className="col sm12 m8 ">Contact Me!</p>
               </div>
               
-              <div className="col p-3 align-self-center">
-                <h4 className="mb-4 text-center" align="center">Submit Info here:</h4>
+              <div className="col sm12 align-self-center">
                 <form className="form">
                   <input
                     value={this.state.firstName}
@@ -58,6 +59,13 @@ class Contact extends Component {
                     placeholder="Last Name"
                   />
                   <br />
+                  <input
+                    value={this.state.email}
+                    name="email"
+                    onChange={this.handleInputChange}
+                    type="text"
+                    placeholder="Email"
+                  />
                   <button onClick={this.handleFormSubmit}>Submit</button>
                 </form>
               </div>

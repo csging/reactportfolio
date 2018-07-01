@@ -1,13 +1,15 @@
-#container {
+/* .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
-#main {
+.container-contact {
+    /* width: 100%; */
     padding: 5px;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    background-color: #254558;
 }

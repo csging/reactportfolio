@@ -1,0 +1,92 @@
+[{
+        "id": "1",
+        "name": "React Pic Game",
+        "desc": "Clicky memory game. Click on each picture only once to win! Click the same picture twice and you lose!",
+        "lang": "ReactJS",
+        "url": "https://github.com/csging/ReactPicGame"
+    },
+    {
+        "id": "2",
+        "name": "Pokemon Hangman",
+        "desc": "Who's that pokemon? Guess the Pokemon within 9 tries to win!",
+        "lang": "HTML, CSS, JavaScript",
+        "url": "https://github.com/csging/Hangman-Game"
+    },
+    {
+        "id": "3",
+        "name": "Mongo News Scraper",
+        "desc": "Scrape the news with this website! You can save an article, make a note on the article, and delete the article",
+        "lang": "Cheerio, morgan, body-parser, Handlebars, MongoDB, Express, Node",
+        "url": "https://github.com/csging/newsScrape"
+    },
+    {
+        "id": "4",
+        "name": "BLACK List To Do List",
+        "desc": "The BLACK list is a to do list to make your life easier. You can sign in, save your list, edit and delete tasks on your list. Future updates include using the graph page to track your productivity by showing you how many lists and tasks you complete weekly",
+        "lang": "ReactJS, Node, Express, MySQL, Heroku, OAuth, ",
+        "url": "https://github.com/csging/GetShitDone"
+    },
+    {
+        "id": "5",
+        "name": "Crystal Collector Game",
+        "desc": "Each game starts with 4 crystals all with different values. You need to figure out those hidden values to match the winning number. Game resets on refresh",
+        "lang": "Jquery, Javascript, HTML, CSS",
+        "url": "https://github.com/csging/week-4-game"
+    },
+    {
+        "id": "6",
+        "name": "GIPHY API Search",
+        "desc": "Search and view your favorite GIFs. Start off by clicking a tab to generate 10 gifs, or use the search bar to generate your own gifs! Click on a gif to start and stop the gif.",
+        "lang": "GIPHY API, HTML, CSS, Jquery, Ajax",
+        "url": "https://github.com/csging/giphyAPI"
+    },
+    {
+        "id": "7",
+        "name": "Train Sceduler",
+        "desc": "Keep track of your own trains with this train tracker. Data put in the forms is saved in a Firebase Database",
+        "lang": "Firebase, HTML, CSS, Jquery",
+        "url": "https://github.com/csging/trainsrcool"
+    },
+    {
+        "id": "8",
+        "name": "Exbae",
+        "desc": "Buy and Sell stuff from past and broken relationships with this Amazon/Ebay-like storefront. You can view the customer store front, or manage the store with the exbaemanager file",
+        "lang": "Node, Express, MySQL, inquirer",
+        "url": "https://github.com/csging/"
+    },
+    {
+        "id": "9",
+        "name": "Liri",
+        "desc": "Liri, the Siri Clone. Ask Liri questions in the command line and get info quick!",
+        "lang": "Node, Express, Twitter API, Spotify API",
+        "url": "https://github.com/csging/liri-node-app"
+    },
+    {
+        "id": "10",
+        "name": "Burger App",
+        "desc": "Create a burger, and then eat it in this burger creating and managing app",
+        "lang": "Express, Node, Handlebars",
+        "url": "https://github.com/csging/burger"
+    },
+    {
+        "id": "11",
+        "name": "Cowboy Bebop Trivia Game",
+        "desc": "Test your trivia knowledge in this timed Cowboy Bebop trivia game",
+        "lang": "Javascript, HTML, CSS, Jquery",
+        "url": "https://github.com/csging/triviagame"
+    },
+    {
+        "id": "12",
+        "name": "Friend Finder",
+        "desc": "Take a survey and get matched with people who have similar tastes as you",
+        "lang": "Express, HTML, CSS",
+        "url": "https://github.com/csging/-friendfinder"
+    },
+    {
+        "id": "13",
+        "name": "MUC App",
+        "desc": "Take part in a local scavenger hunt, focusing in Balboa Park. Visit landmarks and take a picture within their vicinity on the map witin the circle to complete the clue!",
+        "lang": "Clarifai API, HTML, CSS, JavaScript, Jquery, Google Maps API, Firebase",
+        "url": "https://github.com/csging/muc-app"
+    }
+]

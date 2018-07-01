@@ -4,8 +4,46 @@ import './Navbar.css';
 class Navbar extends React.Component {
   render() {
   return (
-    <header>
-      <div className="collapse bg-dark" id="navbarHeader">
+    <div>
+    <nav classname="navbar" role="navigation">
+    <div className="nav-wrapper container">
+      <div className="row">
+      <ul>
+        <div className="col sm12 m3">
+        <li><a href="/">Home</a></li>
+        </div>
+        <div className="col sm12 m3">
+        <li><a href="/about">About</a></li>
+        </div>
+        <div className="col sm12 m3">
+        <li><a href="/portfolio">Portfolio</a></li>
+        </div>
+        <div className="col sm12 m3">
+        <li><a href="/contact">Contact</a></li>
+        </div>
+      </ul>
+      </div>
+
+  
+  {/* <ul className="right" >
+    <li><a href="https://github.com/csging">
+    Github </a></li>
+    <li><a href="https://twitter.com/CSGingrich">
+    Twitter</a></li>
+    <li><a href="https://www.linkedin.com/in/christian-gingrich/">
+    LinkedIn</a></li>
+    <li><a href="https://facebook.com/CSGing">
+    Facebook</a></li>
+  </ul> */}
+        </div>
+        </nav>
+    </div>
+  );
+}};
+
+<li><a> | </a></li>
+export default Navbar;
+ {/* <div className="collapse bg-dark" id="navbarHeader">
         <div className="container">
           <div className="row">
             <div className="col-sm-8 col-md-7 py-4">
@@ -39,9 +77,4 @@ class Navbar extends React.Component {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-      </div>
-    </header>
-  );
-}};
-
-export default Navbar;
+      </div> */}
