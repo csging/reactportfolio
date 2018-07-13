@@ -1,3 +1,5 @@
-.project-card {
-    width: 500px;
+.card {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
 }

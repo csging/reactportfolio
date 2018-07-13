@@ -2,23 +2,27 @@ import React,  {Component} from 'react';
 import ProjectCard from '../ProjectCard';
 import projectsone from './projects1.json';
 import projectstwo from './projects2.json';
+// import projects from './projects.json';
+// import './Porfolio.css';
 
 
 class Portfolio extends Component {
         constructor(props){
         super(props);
         this.state = {
-        projects: projects,
+        projectsone: projectsone,
+        projectstwo: projectstwo,
+        // projects:projects
         }
         }
        
         render() {
                 return (   
                         <div>     
-        <div className="container">
-                <div className="section">
+        <div className="container projectsone">
+              
                         {/* <div className="row"> */}
-                                <div className="col s12 m6">
+                                {/* <div className="col s12 m12"> */}
                                         <div className="project-card">
                 <div className="portfolio">
                         {this.state.projectsone.map(project => (
@@ -32,14 +36,14 @@ class Portfolio extends Component {
                                 />
                         )) 
                         }
-                        </div></div></div></div>
-                {/* </div> */}
-        </div>   
+                        </div></div></div>
+               
+        {/* </div>    */}
         
-        <div className="container">
-                <div className="section">
+        <div className="container projectstwo">
+                
                         {/* <div className="row"> */}
-                                <div className="col s12 m6">
+                                {/* <div className="col s12 m12"> */}
                                         <div className="project-card">
                 <div className="portfolio">
                         {this.state.projectstwo.map(project => (
@@ -54,9 +58,8 @@ class Portfolio extends Component {
                         )) 
                         }
                         </div></div></div></div>
-                {/* </div> */}
-        </div>   
-        </div>
+                
+        
 );
                 }};
 
