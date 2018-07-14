@@ -28,7 +28,7 @@
     },
     {
         "id": "11",
-        "name": "Cowboy Bebop Trivia Game",
+        "name": "Cowboy Bebop Trivia",
         "desc": "Test your trivia knowledge in this timed Cowboy Bebop trivia game",
         "lang": "Javascript, HTML, CSS, Jquery",
         "url": "https://github.com/csging/triviagame"

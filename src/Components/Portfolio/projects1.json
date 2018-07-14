@@ -1,9 +1,9 @@
 [{
         "id": "1",
-        "name": "React Pic Game",
-        "desc": "Clicky memory game. Click on each picture only once to win! Click the same picture twice and you lose!",
-        "lang": "ReactJS",
-        "url": "https://github.com/csging/ReactPicGame"
+        "name": "Trendy Map App",
+        "desc": "Android app- open the map to find cool things to do around you!",
+        "lang": "React Native, Java, Firebase, React Native Maps, Google Maps",
+        "url": "https://play.google.com/store/apps/details?id=com.fomomap"
     },
     {
         "id": "2",
@@ -39,5 +39,12 @@
         "desc": "Search and view your favorite GIFs. Start off by clicking a tab to generate 10 gifs, or use the search bar to generate your own gifs! Click on a gif to start and stop the gif.",
         "lang": "GIPHY API, HTML, CSS, Jquery, Ajax",
         "url": "https://github.com/csging/giphyAPI"
+    },
+    {
+        "id": "7",
+        "name": "Pokemon Hangman",
+        "desc": "Who's that pokemon? Guess the Pokemon within 9 tries to win!",
+        "lang": "HTML, CSS, JavaScript",
+        "url": "https://github.com/csging/Hangman-Game"
     }
 ]

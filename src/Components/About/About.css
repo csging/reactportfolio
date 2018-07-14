@@ -6,12 +6,24 @@
     padding: 0
 }
 
-.about-container {
+
+/* .circle, */
+
+.prof-pic {
+    width: 100%;
+    height: 100%;
+}
+
+span {
     padding-top: 6rem;
+}
+
+.about-container {
+    padding-top: 4rem;
     padding-bottom: 6rem;
     margin-bottom: 0;
-    background-color: #254558;
-    background-image: url();
+    /* background-color: #254558; */
+    background-image: url('../images/bigcoffee.jpg');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
@@ -19,8 +31,8 @@
 
 .name-container {
     font-weight: 300;
-    color: #eafc40;
-    background-color: #2b2b3a
+    color: #1ed2f4;
+    /* background-color: #2b2b3a */
 }
 
 .jumbotron .container {
@@ -37,4 +49,8 @@
 .jumbotron p {
     color: white;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-text {
+    color: #225544;
 }
